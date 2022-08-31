@@ -31,8 +31,6 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-  Style/OptionalBooleanParameter:
-    Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -45,6 +43,8 @@ Lint/RaiseException:
   Enabled: false
 Lint/StructNewOverride:
   Enabled: false
+  Lint/Syntax:
+    Enabled: false
 Style/HashEachMethods:
   Enabled: false
 Style/HashTransformKeys:
