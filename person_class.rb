@@ -2,14 +2,12 @@ require_relative './student_class'
 require_relative './teacher_class'
 
 class Person
-  def initialize(age, parent_permission = true, name = 'Unknown')
+  def initialize(age, parent_permission : true, name = 'Unknown')
     @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
   end
-
-  attr_reader :id, :name, :age
 
   def name(value)
     @name = value
@@ -19,7 +17,7 @@ class Person
     @age = value
   end
 
-  def is_of_age?
+  def isof_age?
     @age >= 18
   end
 
