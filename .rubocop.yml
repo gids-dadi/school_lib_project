@@ -51,5 +51,5 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-  AllCops:
-    NewCops: enable
+AllCops:
+  TargetRubyVersion: 2.6
