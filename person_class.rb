@@ -2,8 +2,7 @@ require_relative './student_class'
 require_relative './teacher_class'
 
 class Person
-
-  def initialize(age, parent_permission: true, name )
+  def initialize(age, parent_permission: true, name='Unknown' )
     @id = Random.rand(1..1000)
     @name = name
     @age = age
