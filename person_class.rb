@@ -22,15 +22,6 @@ class Person
   end
 end
 
-
-
-
-
-
-
-
-
-
 # require_relative './student_class'
 # require_relative './teacher_class'
 
