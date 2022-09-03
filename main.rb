@@ -1,4 +1,4 @@
-require_relative "./options"
+require_relative './options'
 
 # Main class handle all methods
 class Main

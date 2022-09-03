@@ -3,8 +3,7 @@ require_relative 'classroom'
 require_relative 'student'
 require_relative 'teacher'
 
-
-#Main entry point
+# Main entry point
 class App
   def initialize
     @book_arr = []
