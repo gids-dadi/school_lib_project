@@ -1,4 +1,4 @@
-require_relative './app'
+require_relative 'app'
 
 # Options to select what to see
 class Options

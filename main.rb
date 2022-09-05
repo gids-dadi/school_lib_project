@@ -1,6 +1,8 @@
-require_relative './options'
+require_relative 'options'
 
 # Main class handle all methods
+
+
 class Main
   def initialize
     @option = Options.new
@@ -20,7 +22,7 @@ class Main
     end
   end
 
-  def starting
+  def start
     puts 'Please choose an option by entering a number'
     puts '1 - List all books'
     puts '2 - List all people'
@@ -33,6 +35,5 @@ class Main
     inputs(num)
   end
 end
-
 main = Main.new
-main.starting
+main.start
