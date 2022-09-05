@@ -1,7 +1,7 @@
-require_relative 'person'
+require_relative 'person_class'
 require_relative 'classroom'
-require_relative 'student'
-require_relative 'teacher'
+require_relative 'student_class'
+require_relative 'teacher_class'
 
 # Main entry point
 class App
